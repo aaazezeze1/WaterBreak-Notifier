@@ -1,10 +1,8 @@
 import time
 from plyer import notification
 
-# Notifications
 if __name__ == '__main__':
     while True:
-    # def notifsWater():
         notification.notify(
             title = 'Water Break',
             message = 'Drink Water!',
@@ -12,8 +10,7 @@ if __name__ == '__main__':
             timeout = 15,
         )
         time.sleep(1500)
-
-    # def notifsBreak():
+        
         notification.notify(
             title = 'Take a Break',
             message = 'Take a break from what your doing right now',
